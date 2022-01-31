@@ -1,0 +1,305 @@
+2022-01-30 16:37:32 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:29 - webdriver.edge.driver is set to src/test/resources/Drivers/msedgedriver.exe
+2022-01-30 16:37:33 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:32 - webdriver.edge.logfile is set to src/test/Logs/chromedriver.log
+2022-01-30 16:37:33 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:35 - webdriver.edge.silentOutput is set to true
+2022-01-30 16:37:33 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:79 - download.default_directory is set to C:\Users\megha\IdeaProjects\PageObjectModelSeleniumMavenCucumberJava\target\Downloads
+2022-01-30 16:37:33 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:82 - browser.download.dir is set to C:\Users\megha\IdeaProjects\PageObjectModelSeleniumMavenCucumberJava\target\Downloads
+2022-01-30 16:37:33 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:85 - download.prompt_for_download is set to false
+2022-01-30 16:37:33 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:88 - download.directory_upgrade is set to true
+2022-01-30 16:37:33 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:91 - safebrowsing.enabled is set to true
+2022-01-30 16:37:33 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:94 - safebrowsing.disable_download_protection is set to true
+2022-01-30 16:37:33 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:97 - useAutomationExtension is set to false
+2022-01-30 16:37:33 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:100 - profile.default_content_settings.popups is set to 5
+2022-01-30 16:37:34 [main] DEBUG InternalLoggerFactory:76 - Using Log4J2 as the default logging framework
+2022-01-30 16:37:34 [main] DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-01-30 16:37:34 [main] DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-01-30 16:37:34 [main] DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1fcf9739
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent0:954 - Java version: 11
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent0:202 - java.nio.Buffer.address: available
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent0:282 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:253) ~[netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:247) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:112) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:221) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:200) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) [async-http-client-2.12.3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:114) [selenium-remote-driver-4.0.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:57) [selenium-remote-driver-4.0.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:163) [selenium-remote-driver-4.0.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:107) [selenium-remote-driver-4.0.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:94) [selenium-remote-driver-4.0.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:85) [selenium-remote-driver-4.0.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:77) [selenium-remote-driver-4.0.0.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:35) [selenium-chromium-driver-4.0.0.jar:?]
+	at org.openqa.selenium.edge.EdgeDriver$EdgeDriverCommandExecutor.<init>(EdgeDriver.java:61) [selenium-edge-driver-4.0.0.jar:?]
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49) [selenium-edge-driver-4.0.0.jar:?]
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41) [selenium-edge-driver-4.0.0.jar:?]
+	at Common.EdgeDriverManager.initializeDriver(EdgeDriverManager.java:41) [test-classes/:?]
+	at StepDefinitions.Hooks.openBrowser(Hooks.java:52) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) [cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) [cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) [cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59) [cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) [cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) [cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) [cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92) [cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64) [cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:98) [cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71) [cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151) [cucumber-junit-6.8.1.jar:6.8.1]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135) [cucumber-junit-6.8.1.jar:6.8.1]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27) [cucumber-junit-6.8.1.jar:6.8.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199) [cucumber-junit-6.8.1.jar:6.8.1]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90) [cucumber-junit-6.8.1.jar:6.8.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234) [cucumber-junit-6.8.1.jar:6.8.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-3.0.0-M3.jar:3.0.0-M3]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-3.0.0-M3.jar:3.0.0-M3]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-3.0.0-M3.jar:3.0.0-M3]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-3.0.0-M3.jar:3.0.0-M3]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-3.0.0-M3.jar:3.0.0-M3]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-3.0.0-M3.jar:3.0.0-M3]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-3.0.0-M3.jar:3.0.0-M3]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-3.0.0-M3.jar:3.0.0-M3]
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent0:414 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2e32ccc5
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:361) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:591) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:558) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:375) ~[netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:366) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:112) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:221) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:200) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) [async-http-client-2.12.3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:114) [selenium-remote-driver-4.0.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:57) [selenium-remote-driver-4.0.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:163) [selenium-remote-driver-4.0.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:107) [selenium-remote-driver-4.0.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:94) [selenium-remote-driver-4.0.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:85) [selenium-remote-driver-4.0.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:77) [selenium-remote-driver-4.0.0.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:35) [selenium-chromium-driver-4.0.0.jar:?]
+	at org.openqa.selenium.edge.EdgeDriver$EdgeDriverCommandExecutor.<init>(EdgeDriver.java:61) [selenium-edge-driver-4.0.0.jar:?]
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49) [selenium-edge-driver-4.0.0.jar:?]
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41) [selenium-edge-driver-4.0.0.jar:?]
+	at Common.EdgeDriverManager.initializeDriver(EdgeDriverManager.java:41) [test-classes/:?]
+	at StepDefinitions.Hooks.openBrowser(Hooks.java:52) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) [cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) [cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) [cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59) [cucumber-java-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) [cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) [cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) [cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92) [cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64) [cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:98) [cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71) [cucumber-core-6.8.1.jar:6.8.1]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151) [cucumber-junit-6.8.1.jar:6.8.1]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135) [cucumber-junit-6.8.1.jar:6.8.1]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27) [cucumber-junit-6.8.1.jar:6.8.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199) [cucumber-junit-6.8.1.jar:6.8.1]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90) [cucumber-junit-6.8.1.jar:6.8.1]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234) [cucumber-junit-6.8.1.jar:6.8.1]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-3.0.0-M3.jar:3.0.0-M3]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-3.0.0-M3.jar:3.0.0-M3]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-3.0.0-M3.jar:3.0.0-M3]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-3.0.0-M3.jar:3.0.0-M3]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-3.0.0-M3.jar:3.0.0-M3]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-3.0.0-M3.jar:3.0.0-M3]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-3.0.0-M3.jar:3.0.0-M3]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-3.0.0-M3.jar:3.0.0-M3]
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent:1103 - sun.misc.Unsafe: available
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent:1205 - maxDirectMemory: 1870659584 bytes (maybe)
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent:1224 - -Dio.netty.tmpdir: C:\Users\megha\AppData\Local\Temp (java.io.tmpdir)
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent:1303 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent:1063 - Platform: Windows
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-01-30 16:37:35 [main] DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-01-30 16:37:35 [main] DEBUG PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-01-30 16:37:36 [main] DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-01-30 16:37:36 [main] DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-01-30 16:37:39 [main] DEBUG JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
+2022-01-30 16:37:39 [main] DEBUG JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-01-30 16:37:40 [main] DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 4
+2022-01-30 16:37:40 [main] DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2022-01-30 16:37:40 [main] DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-01-30 16:37:41 [main] TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@77ec6a3d
+2022-01-30 16:37:41 [main] TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1a0b5323
+2022-01-30 16:37:41 [main] TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@25b52284
+2022-01-30 16:37:41 [main] TRACE NioEventLoop:260 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@245ec1a6
+2022-01-30 16:37:41 [main] DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 4
+2022-01-30 16:37:41 [main] DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 4
+2022-01-30 16:37:41 [main] DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+2022-01-30 16:37:41 [main] DEBUG PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 11
+2022-01-30 16:37:41 [main] DEBUG PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 16777216
+2022-01-30 16:37:41 [main] DEBUG PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+2022-01-30 16:37:41 [main] DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+2022-01-30 16:37:41 [main] DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-01-30 16:37:41 [main] DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-01-30 16:37:41 [main] DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-01-30 16:37:41 [main] DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: true
+2022-01-30 16:37:41 [main] DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-01-30 16:37:41 [main] DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-01-30 16:37:41 [main] DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-01-30 16:37:41 [main] DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-01-30 16:37:48 [Forwarding newSession on session null to remote] DEBUG DefaultChannelId:79 - -Dio.netty.processId: 13636 (auto-detected)
+2022-01-30 16:37:48 [Forwarding newSession on session null to remote] DEBUG NetUtil:135 - -Djava.net.preferIPv4Stack: false
+2022-01-30 16:37:48 [Forwarding newSession on session null to remote] DEBUG NetUtil:136 - -Djava.net.preferIPv6Addresses: false
+2022-01-30 16:37:51 [Forwarding newSession on session null to remote] DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-01-30 16:37:51 [Forwarding newSession on session null to remote] DEBUG NetUtil:187 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-01-30 16:37:54 [Forwarding newSession on session null to remote] DEBUG DefaultChannelId:101 - -Dio.netty.machineId: d8:12:65:ff:fe:ed:00:9f (auto-detected)
+2022-01-30 16:37:54 [AsyncHttpClient-1-2] DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-01-30 16:37:54 [AsyncHttpClient-1-2] DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-01-30 16:37:54 [AsyncHttpClient-1-2] DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@254ab6d7
+2022-01-30 16:37:54 [AsyncHttpClient-1-2] DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-01-30 16:37:54 [AsyncHttpClient-1-2] DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-01-30 16:37:54 [AsyncHttpClient-1-2] DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2022-01-30 16:37:54 [AsyncHttpClient-1-2] DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2022-01-30 16:37:54 [AsyncHttpClient-1-2] DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2022-01-30 16:38:07 [AsyncHttpClient-1-2] DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-01-30 16:38:10 [main] DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x19b6662f25c238f8
+2022-01-30 16:38:11 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:68 - Page Load Timeout set to 240 secs
+2022-01-30 16:38:11 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:71 - Script Timeout set to 30 secs
+2022-01-30 16:38:11 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:74 - Implicit Wait set to 15 secs
+2022-01-30 16:38:16 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:85 - Screen Width before maximizing: 1366.0
+2022-01-30 16:38:16 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:86 - Screen Height before maximizing: 768.0
+2022-01-30 16:38:16 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:88 - Screen Resolution before maximizing: : 96
+2022-01-30 16:38:17 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:97 - Screen Width after maximizing:1366.0
+2022-01-30 16:38:17 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:98 - Screen Height after maximizing: 768.0
+2022-01-30 16:38:17 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:100 - Screen resolution after maximizing is : 96
+2022-01-30 16:38:18 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:24 - Link is : Telstra Premium Calculator
+2022-01-30 16:38:18 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:38 - Member URL: https://telstra-super.lifeview.insure/calculators/premium
+2022-01-30 16:38:35 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:47 - User click on Let's get started
+2022-01-30 16:39:01 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:24 - Clicked on :Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'et started')]'
+2022-01-30 16:39:01 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:72 - Validating Member Portal footer for page: Duty of Disclosure page
+2022-01-30 16:39:21 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:24 - Clicked on :Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'Agree')]'
+2022-01-30 16:39:21 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - Benefit Type: Income Protection,Death and TPD
+2022-01-30 16:39:22 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:24 - Clicked on :[[EdgeDriver: msedge on WINDOWS (8d55244c52dfdfecfe32bf0e4e942ee1)] -> css selector: label[for='insurance-type-income-protection']]
+2022-01-30 16:39:22 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:24 - Clicked on :[[EdgeDriver: msedge on WINDOWS (8d55244c52dfdfecfe32bf0e4e942ee1)] -> css selector: label[for='insurance-type-death-tpd']]
+2022-01-30 16:39:22 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:72 - Validating Member Portal footer for page: Premium Calculator page
+2022-01-30 16:39:23 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:47 - User click on Next
+2022-01-30 16:39:24 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:24 - Clicked on :[[EdgeDriver: msedge on WINDOWS (8d55244c52dfdfecfe32bf0e4e942ee1)] -> xpath: //button[contains(text(),'Next')]]
+2022-01-30 16:39:24 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - day: 01
+2022-01-30 16:39:27 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - month: May
+2022-01-30 16:39:28 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - year: 1971
+2022-01-30 16:39:28 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - Your annual income: 80365.30
+2022-01-30 16:39:29 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - Female: click
+2022-01-30 16:39:30 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - Next: click
+2022-01-30 16:39:31 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - Member Group: TelstraSuper Corporate Plus
+2022-01-30 16:39:33 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:41 - [[EdgeDriver: msedge on WINDOWS (8d55244c52dfdfecfe32bf0e4e942ee1)] -> id: member-groups]: is Visible
+2022-01-30 16:39:33 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - Company: Foxtel
+2022-01-30 16:39:33 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:41 - [[EdgeDriver: msedge on WINDOWS (8d55244c52dfdfecfe32bf0e4e942ee1)] -> id: company]: is Visible
+2022-01-30 16:39:34 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - Employment: Part-Time
+2022-01-30 16:39:34 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:41 - [[EdgeDriver: msedge on WINDOWS (8d55244c52dfdfecfe32bf0e4e942ee1)] -> id: employment]: is Visible
+2022-01-30 16:39:35 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - Base Insurance: NA
+2022-01-30 16:39:35 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - Occupation Class: White Collar
+2022-01-30 16:39:35 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:41 - [[EdgeDriver: msedge on WINDOWS (8d55244c52dfdfecfe32bf0e4e942ee1)] -> id: occupation-class]: is Visible
+2022-01-30 16:39:36 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - A bit about your job Page: click
+2022-01-30 16:39:36 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:41 - [[EdgeDriver: msedge on WINDOWS (8d55244c52dfdfecfe32bf0e4e942ee1)] -> xpath: //h2[text()='Tell us a bit about your job']]: is Visible
+2022-01-30 16:39:41 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:72 - Validating Member Portal footer for page: Premium Calculator page2
+2022-01-30 16:39:42 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - Next: click
+2022-01-30 16:39:44 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:72 - Validating Member Portal footer for page: premium calculator results page
+2022-01-30 16:39:47 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - Waiting Period: 60Days
+2022-01-30 16:39:47 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:41 - [[EdgeDriver: msedge on WINDOWS (8d55244c52dfdfecfe32bf0e4e942ee1)] -> id: income-protection-waiting-period]: is Visible
+2022-01-30 16:39:49 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - Benefit Period: 5Year
+2022-01-30 16:39:49 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:41 - [[EdgeDriver: msedge on WINDOWS (8d55244c52dfdfecfe32bf0e4e942ee1)] -> id: income-protection-benefit-period]: is Visible
+2022-01-30 16:39:50 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - Cover Amount: 260511
+2022-01-30 16:39:53 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:41 - [[EdgeDriver: msedge on WINDOWS (8d55244c52dfdfecfe32bf0e4e942ee1)] -> xpath: //span[text()='Cover amount']/../following::input[@max='5000000']]: is Visible
+2022-01-30 16:39:56 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:41 - [[EdgeDriver: msedge on WINDOWS (8d55244c52dfdfecfe32bf0e4e942ee1)] -> xpath: //span[text()='Cover amount']/../following::input[@max='5000000']]: is Visible
+2022-01-30 16:39:57 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:55 - 260511 entered on :[[EdgeDriver: msedge on WINDOWS (8d55244c52dfdfecfe32bf0e4e942ee1)] -> xpath: //span[text()='Cover amount']/../following::input[@max='5000000']]
+2022-01-30 16:39:57 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:17 - Premium Calculator - Total Premium: per-year
+2022-01-30 16:40:03 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:108 - value displayedper year
+2022-01-30 16:40:04 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:41 - [[EdgeDriver: msedge on WINDOWS (8d55244c52dfdfecfe32bf0e4e942ee1)] -> xpath: //div[@class='quote-period']/p]: is Visible
+2022-01-30 16:40:04 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:71 - Actual value equals $2,140.66
+2022-01-30 16:40:43 [main] DEBUG Standalone_Needs_calculator_for_My_partner_,_my_kids_and_me:29 - webdriver.edge.driver is set to src/test/resources/Drivers/msedgedriver.exe
+2022-01-30 16:40:43 [main] DEBUG Standalone_Needs_calculator_for_My_partner_,_my_kids_and_me:32 - webdriver.edge.logfile is set to src/test/Logs/chromedriver.log
+2022-01-30 16:40:43 [main] DEBUG Standalone_Needs_calculator_for_My_partner_,_my_kids_and_me:35 - webdriver.edge.silentOutput is set to true
+2022-01-30 16:40:43 [main] DEBUG Standalone_Needs_calculator_for_My_partner_,_my_kids_and_me:79 - download.default_directory is set to C:\Users\megha\IdeaProjects\PageObjectModelSeleniumMavenCucumberJava\target\Downloads
+2022-01-30 16:40:43 [main] DEBUG Standalone_Needs_calculator_for_My_partner_,_my_kids_and_me:82 - browser.download.dir is set to C:\Users\megha\IdeaProjects\PageObjectModelSeleniumMavenCucumberJava\target\Downloads
+2022-01-30 16:40:43 [main] DEBUG Standalone_Needs_calculator_for_My_partner_,_my_kids_and_me:85 - download.prompt_for_download is set to false
+2022-01-30 16:40:43 [main] DEBUG Standalone_Needs_calculator_for_My_partner_,_my_kids_and_me:88 - download.directory_upgrade is set to true
+2022-01-30 16:40:43 [main] DEBUG Standalone_Needs_calculator_for_My_partner_,_my_kids_and_me:91 - safebrowsing.enabled is set to true
+2022-01-30 16:40:43 [main] DEBUG Standalone_Needs_calculator_for_My_partner_,_my_kids_and_me:94 - safebrowsing.disable_download_protection is set to true
+2022-01-30 16:40:43 [main] DEBUG Standalone_Needs_calculator_for_My_partner_,_my_kids_and_me:97 - useAutomationExtension is set to false
+2022-01-30 16:40:43 [main] DEBUG Standalone_Needs_calculator_for_My_partner_,_my_kids_and_me:100 - profile.default_content_settings.popups is set to 5
+2022-01-30 16:40:51 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:68 - Page Load Timeout set to 240 secs
+2022-01-30 16:40:51 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:71 - Script Timeout set to 30 secs
+2022-01-30 16:40:51 [main] DEBUG TelstraSuper_Corporate_Plus_-_Premium_calculator:74 - Implicit Wait set to 15 secs
+2022-01-30 16:40:51 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:85 - Screen Width before maximizing: 1366.0
+2022-01-30 16:40:51 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:86 - Screen Height before maximizing: 768.0
+2022-01-30 16:40:51 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:88 - Screen Resolution before maximizing: : 96
+2022-01-30 16:40:52 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:97 - Screen Width after maximizing:1366.0
+2022-01-30 16:40:52 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:98 - Screen Height after maximizing: 768.0
+2022-01-30 16:40:52 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:100 - Screen resolution after maximizing is : 96
+2022-01-30 16:40:52 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:24 - Link is : Generic Needs Calculator
+2022-01-30 16:40:52 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:38 - Member URL: https://mlcinsurance.lifeview.insure/calculators/needs
+2022-01-30 16:40:57 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:47 - User click on Let's get started
+2022-01-30 16:41:15 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:24 - Clicked on :Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'et started')]'
+2022-01-30 16:41:33 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:24 - Clicked on :Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'Agree')]'
+2022-01-30 16:41:33 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:24 - Clicked on :[[EdgeDriver: msedge on WINDOWS (8f6767f1e0ed5016bdbe93b5590141ae)] -> xpath: //label[@for='needs-type-protect-selection-me-partner-dependants']]
+2022-01-30 16:41:33 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:47 - User click on Next
+2022-01-30 16:41:34 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:24 - Clicked on :[[EdgeDriver: msedge on WINDOWS (8f6767f1e0ed5016bdbe93b5590141ae)] -> xpath: //button[contains(text(),'Next')]]
+2022-01-30 16:41:35 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:41 - [[EdgeDriver: msedge on WINDOWS (8f6767f1e0ed5016bdbe93b5590141ae)] -> xpath: //*[@id='dob-day']]: is Visible
+2022-01-30 16:41:38 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:41 - [[EdgeDriver: msedge on WINDOWS (8f6767f1e0ed5016bdbe93b5590141ae)] -> xpath: //*[@id='dependants-count']]: is Visible
+2022-01-30 16:42:01 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:41 - [[EdgeDriver: msedge on WINDOWS (8f6767f1e0ed5016bdbe93b5590141ae)] -> xpath: //span[@class='js-results-ip-value']]: is Visible
+2022-01-30 16:42:01 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:71 - Actual value equals $5,667 *
+2022-01-30 16:42:02 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:41 - [[EdgeDriver: msedge on WINDOWS (8f6767f1e0ed5016bdbe93b5590141ae)] -> xpath: //*[@id='tabbutton-tab1']/span/a/div[2]/p[1]/span]: is Visible
+2022-01-30 16:42:02 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:71 - Actual value equals $1,453,496
+2022-01-30 16:42:02 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:41 - [[EdgeDriver: msedge on WINDOWS (8f6767f1e0ed5016bdbe93b5590141ae)] -> xpath: //*[@id='tabbutton-tab2']/span/a/div[2]/p[1]/span]: is Visible
+2022-01-30 16:42:02 [main] INFO  TelstraSuper_Corporate_Plus_-_Premium_calculator:71 - Actual value equals $1,413,496
